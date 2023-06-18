@@ -45,4 +45,4 @@ TODO.
 TODO.
 
 
-***IFMG - Instituto Federal de Minas Gerais, Campus Formiga.***  <!-- Isso aqui vai depois de tudo>
+***IFMG - Instituto Federal de Minas Gerais, Campus Formiga.*** 
