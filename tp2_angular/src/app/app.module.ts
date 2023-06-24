@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ImagensComponent } from './imagens/imagens.component';
 import { NomesComponent } from './nomes/nomes.component';
 import { NomeDetalhesComponent } from './nome-detalhes/nome-detalhes.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NomeDetalhesComponent } from './nome-detalhes/nome-detalhes.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

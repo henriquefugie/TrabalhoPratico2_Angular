@@ -1,5 +1,16 @@
 <h2>Página de Imagens</h2>
 
-<div class="navegar">
-    <a routerLink = "">Página Inicial</a>
+<div class = "navegar">
+    <a routerLink= "">Página Inicial</a>
 </div>
+
+<div>
+  <input class="input" type="text" [(ngModel)]="numeroImagem" placeholder="Digite o número da imagem">
+  <button class="btn" (click)="adicionarImagem()">Adicionar Imagem</button>
+  <button class="btn" (click)="removerImagem()">Remover Imagem</button>
+</div>
+
+<div>
+  <img class="imagem" *ngFor="let imagem of imagens" [src]="'assets/' + imagem" [alt]="imagem" [style.width.px]="300" [style.height.px]="200">
+</div>
+
