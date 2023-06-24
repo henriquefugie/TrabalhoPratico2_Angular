@@ -34,3 +34,4 @@ export class ImagensComponent {
       alert(`Nenhuma imagem ${nomeImagem} encontrada.`);
     }
   }
+}
