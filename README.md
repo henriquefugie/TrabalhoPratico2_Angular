@@ -42,11 +42,14 @@ Na parte 2 do trabalho, no código ```imagens.component``` existem duas funçõe
 
 ## Questão 3
 
-Nesta parte do trabalho, utilizamos a biblioteca *angular-in-memory-web-api*, que pode ser instalada digitando no terminal: ```npm install angular-in-memory-web-api --save```
+Nesta parte do trabalho, utilizamos a biblioteca *angular-in-memory-web-api*, que pode ser instalada digitando no terminal: ```npm install angular-in-memory-web-api --save```.
+
+Os dados devem ser puxados do servidor *in-memory-data.service*, e a lógica da lista dos nomes está no arquivo *pessoa.service*, que manipula as operações CRUD dos nomes e salva-as no banco de dados.
+
 
 ## Questão 4
 
-TODO.
+Na página 3 o usuário é apresentado com uma lista com os nomes e quando ele clica em um nome específico, o usuário é redirecionado pela rota ```detalhes/id``` para uma página que mostra os detalhes da pessoa selecionada. Na página de nomes, é possível editar os detalhes de um nome. Se houver alguma mudança, a página é salva no banco de dados.
 
 
 ***IFMG - Instituto Federal de Minas Gerais, Campus Formiga.*** 
