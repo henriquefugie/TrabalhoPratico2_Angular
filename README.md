@@ -30,12 +30,15 @@ recarregar a página. Para confirmar a alteração, utilize um input de texto e 
 
 ## Questão 1
 
-A Pagina Inicial serve como um menu principal, possibilitando navegar pelas páginas do projeto por meio de um menu principal, e utilizando rotas, consegue direcionar para as demais questões do trabalho, sendo elas:
-'' a rota para a home, 'imagens' para a questão 2, a página de imagens, 'nomes' para a questão 3, a página de nomes e 'detalhes/:id' para a questão 4, que mostra os detalhes do nome escolhido, onde cada nome tem o seu id.
+A **Pagina Inicial** é o menu principal, que possibilita navegar pelas páginas do projeto utilizando rotas e direciona o usuário para as demais questões do trabalho, são elas:
+    - retornar ao menu principal;
+    - imagens para a questão 2, a página de imagens.
+    - 'nomes' para a questão 3, a página de nomes.
+    - 'detalhes/:id' para a questão 4, que mostra os detalhes do nome escolhido, onde cada nome tem o seu id.
 
 ## Questão 2
 
-Na parte 2 do trabalho, no código imagens.component existem duas funções, a de adicionar imagem e a de remover imagem, onde ambas buscam o número digitado e armazena o nome do arquivo de imagem que ele quer buscar e no imagens.html ele vai mostrar as imagens através do comando: *ngFor="let imagem of imagens" e as imagens são buscadas no diretório: [src]="'assets/' + imagem" e para que nenhuma imagem fique maior do que a outra, é definido um tamanho padrão para as imagens.
+Na parte 2 do trabalho, no código imagens.component existem duas funções, a de adicionar imagem e a de remover imagem, onde ambas buscam o número digitado e armazena o nome do arquivo de imagem que ele quer buscar e no imagens.html ele vai mostrar as imagens através do comando: *ngFor="let imagem of imagens" e as imagens são buscadas no diretório: ```[src]="'assets/' + imagem"``` e para que nenhuma imagem fique maior do que a outra, é definido um tamanho padrão para as imagens.
 
 ## Questão 3
 
