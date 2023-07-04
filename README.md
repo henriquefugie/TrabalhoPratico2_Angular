@@ -30,7 +30,7 @@ recarregar a página. Para confirmar a alteração, utilize um input de texto e 
 
 ## Questão 1
 
-A **Pagina Inicial** é o menu principal, que possibilita navegar pelas páginas do projeto utilizando rotas e direciona o usuário para as demais questões do trabalho, são elas:
+- A **Pagina Inicial** é o menu principal, que possibilita navegar pelas páginas do projeto utilizando rotas e direciona o usuário para as demais questões do trabalho, são elas:
     - retornar ao menu principal;
     - imagens para a questão 2, a página de imagens.
     - 'nomes' para a questão 3, a página de nomes.
@@ -42,7 +42,7 @@ Na parte 2 do trabalho, no código imagens.component existem duas funções, a d
 
 ## Questão 3
 
-Nesta parte do trabalho, utilizamos a biblioteca angular-in-memory-web-api, que é instalada digitando no terminal: npm install angular-in-memory-web-api --save
+Nesta parte do trabalho, utilizamos a biblioteca *angular-in-memory-web-api*, que pode ser instalada digitando no terminal: ```npm install angular-in-memory-web-api --save```
 
 ## Questão 4
 
