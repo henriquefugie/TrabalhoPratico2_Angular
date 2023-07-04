@@ -38,7 +38,13 @@ recarregar a página. Para confirmar a alteração, utilize um input de texto e 
 
 ## Questão 2
 
-Na parte 2 do trabalho, no código imagens.component existem duas funções, a de adicionar imagem e a de remover imagem, onde ambas buscam o número digitado e armazena o nome do arquivo de imagem que ele quer buscar e no imagens.html ele vai mostrar as imagens através do comando: *ngFor="let imagem of imagens" e as imagens são buscadas no diretório: ```[src]="'assets/' + imagem"``` e para que nenhuma imagem fique maior do que a outra, é definido um tamanho padrão para as imagens.
+Na parte 2 do trabalho, no código ```imagens.component``` existem duas funções, a de adicionar imagem e a de remover imagem, onde ambas buscam o número digitado e armazena o nome do arquivo de imagem que ele quer buscar e no imagens.html ele vai mostrar as imagens através do comando: *ngFor="let imagem of imagens" e as imagens são buscadas no diretório: ```[src]="'assets/' + imagem"``` e para que nenhuma imagem fique maior do que a outra, é definido um tamanho padrão para as imagens.
+
+```
+    int i = 0;
+    print(i);
+
+```
 
 ## Questão 3
 
