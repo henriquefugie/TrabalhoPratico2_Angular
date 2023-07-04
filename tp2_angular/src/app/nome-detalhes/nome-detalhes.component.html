@@ -1,6 +1,10 @@
-<h2>Detalhes dos Nomes</h2>
-
-<div class = "navegar">
-    <a routerLink="/nomes">Página de Nomes</a><br>
-    <a routerLink= "">Página Inicial</a>
-</div>
+<div *ngIf="pessoa">
+    <h2>{{pessoa.name | uppercase}} Detalhes</h2>
+    <div><span>id: </span>{{pessoa.id}}</div>
+    <div>
+      <label for="pessoa-nome">Nome da pessoa: </label>
+      <input id="pessoa-nome" [(ngModel)]="pessoa.name" placeholder="Pessoa nome"/>
+    </div>
+    <button type="button" (click)="goBack()">Voltar</button>
+    <button type="button" (click)="save()">Salvar</button>
+  </div>

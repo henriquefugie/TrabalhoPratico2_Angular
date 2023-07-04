@@ -1,6 +1,23 @@
-<h2> Página de Nomes</h2>
+<h2> Página de Nomes </h2>
 
-<div class = "navegar">
-    <a routerLink = "/detalhes">Detalhes dos nomes</a><br>
-    <a routerLink = "">Página Inicial</a>
+<div>
+    <a routerLink= "">Página Inicial</a>
 </div>
+
+<div>
+    <label for="novo-nome">Nome da pessoa: </label>
+    <input id="novo-nome" #pessoaNome />
+    <button type="button" class="add-button" (click)="add(pessoaNome.value); pessoaNome.value=''">
+      Adicionar pessoa
+    </button>
+  </div>
+
+<ul class = "pessoas">
+    <li *ngFor="let pessoa of pessoas">
+        <a routerLink="/detalhes/{{pessoa.id}}">
+          <span class="badge">{{pessoa.id}}</span> {{pessoa.name}}
+        </a>
+        <button type="button" class="delete" title="delete hero"
+          (click)="delete(pessoa)">Remover</button>
+      </li>
+</ul>

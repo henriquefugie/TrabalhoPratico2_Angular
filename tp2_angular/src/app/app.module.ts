@@ -9,6 +9,10 @@ import { NomesComponent } from './nomes/nomes.component';
 import { NomeDetalhesComponent } from './nome-detalhes/nome-detalhes.component';
 import { FormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './nomes/in-memory-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +25,11 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
